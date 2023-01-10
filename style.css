@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-icons-links a i{
+    color: gray;
+    margin-right: 20px;
+    position: relative;
+    top: 80px;
+    cursor: pointer;
+}
+
+.navbar-icons-links a i:hover{
+    background-color: green;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+
+.logo img{
+   margin-left: 700px;
+   margin-top: 40px;
+}
+
+.header-link2{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -70px;
+    /* padding: 0; */
+}
+
+.header-navbar ul {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.header-navbar ul li{
+    margin-right: 25px;
+}
+
+.header-links1 ul li a i{
+    /* padding-left: 1900px; */
+}
+
+.header-navbar ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+hr{
+    margin-top: -30px;
+}
+
+.header-text{
+    background-image: url(./img/hero/1.jpg);
+    height: 40rem;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    /* width: 200px; */
+}
+
+.headings{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 230px;
+}
+
+.headings h1{
+    font-size: 70px;
+}
+
+.header-text h1, h2{
+    color: #fff;
+
+}
+
+.header-text h2{
+    width: 8 00px;
+    padding-left: 600px;
+}
